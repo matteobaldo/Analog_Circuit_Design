@@ -1,0 +1,126 @@
+\chapter{One stage OTA}
+
+\centering
+\includegraphics[width=0.5\textwidth]{OTA1.png}\\
+\raggedright
+
+\section{Differential gain}
+\begin{equation}
+G_d=g_{m1}r_{0,2}//r_{0,4}
+\end{equation}
+
+\section{Common mode gain}
+\begin{equation}
+G_{CM}=\frac{\varepsilon(r_{0,2}//r_{0,4})}{r_{0,g}}
+\end{equation}
+The variable $\varepsilon$ has 2 dependance on deterministic and non deterministic effects.
+
+\subsection{Deterministic contributions}
+{\bf Mirror error}\\
+Current read from M3 is a partition ,caused by $r_03$, of the total current.
+\begin{equation}
+\varepsilon_{det,mirror}=\frac{1/g_{mM}}{1/g_{mM}+r_{03}}=\frac{1}{1+1/g_{mM}\cdot r_{03}}\simeq \frac{1}{1/g_{mM}\cdot r_{03}}
+\end{equation}
+{\bf Unballace of the stage}\\
+The impedence seen from the source of the input generators if the two branches is not the same.
+\begin{equation}
+\varepsilon_{det,unballace}\simeq \frac{1}{r_{01}\cdot 1/g_{mM}}
+\end{equation}
+
+\subsection{Statistical contributions}
+{\bf Statistical mismatch of the mirror}\\
+Taking $\Delta g_{m}=g_{m3}-g_{m4}$ 
+\begin{equation}
+\varepsilon_{stat,mirror}=\frac{\Delta g_{m}}{g_{m}}
+\end{equation}
+{\bf Statistical mismatch of the input mos}\\
+Taking $\Delta g_{m}=g_{m1}-g_{m2}$ and $g_{m}=(g_{m1}+g_{m2})/2$
+\begin{equation}
+\varepsilon_{stat,input}=-\frac{\Delta g_{m}}{g_{m}}(1+\frac{2r_{0G}}{r_{01}})
+\end{equation}
+
+\section{CMRR}
+\begin{equation}
+CMRR=G_d/G_{CM}=\frac{2g_{m1}r_{0g}}{\varepsilon}
+\end{equation}
+
+\subsection{Deterministic CMRR}
+Common mode rejection ratio due to deterministic effect
+\begin{equation}
+CMRR_{det}\simeq \frac{2g_{m1}r_{0g}}{\frac{1}{1/g_{mM}\cdot r_{03}}+\frac{1}{r_{01}\cdot 1/g_{mM}}}
+\end{equation}
+
+\subsection{Statistical CMRR}
+Common mode rejection ratio due to statistical effect with very bit $r_g$ approaches to
+\begin{equation}
+CMRR=G_d/G_{CM}=\frac{2g_{m1}r_{0g}}{\varepsilon_{stat}}\rightarrow \frac{g_{mM}\cdot r_01}{\frac{\Delta g_{m1}}{g_{m1}}}
+\end{equation}
+
+\section{Input voltage offset}
+Input voltage offset caused due to statistical unbalace of the transistors.\\
+\subsection{Input mismatch}
+Offset caused by k variations
+\begin{equation}
+V_{OS}^{in,k}=\frac{V_{ov1}}{2}\cdot \frac{\Delta k}{k}
+\end{equation}
+Offset caused by $V_t$ variatons
+\begin{equation}
+V_{OS}^{in,V_t}=\Delta V_t
+\end{equation}
+So the total offset due to input transistors is 
+\begin{equation}
+V_{OS}^{in}=\frac{V_{ov1}}{2}\cdot \frac{\Delta k}{k}+\Delta V_t
+\end{equation}
+\subsection{Mirror mismatch}
+Offset caused by k variations
+\begin{equation}
+V_{OS}^{mirror,k}=\frac{V_{ov,g}}{2}\cdot\frac{\Delta k_M}{k_M}
+\end{equation}
+Offset caused by $V_t$ variations 
+\begin{equation}
+V_{OS}^{mirror,V_t}=\frac{V_{ov,g}}{V_{ov,m}}\Delta V_{t,M}
+\end{equation}
+\subsection{Total offset}
+\begin{equation}
+V_{OV}=\Delta V_{t,in} +\Delta V_{t,M}\cdot \frac{V_{ov,in}}{V_{ov,M}}+\frac{V_{ov,in}}{2}[(\frac{\Delta k}{k})_{in}+(\frac{\Delta k}{k})_M]
+\end{equation}
+
+
+
+
+\section{Dynamics}
+\subsection{Output voltage swing}
+\begin{equation}
+V_{out}^{min}=V_{CM}-V_{Td}
+\end{equation}
+\\
+\begin{equation}
+V_{out}^{max}=V_{dd}-|V_{ov}^{m}|
+\end{equation}
+
+\subsection{CM voltage dynamic}
+\begin{equation}
+V_{CM}^{max}=V_{dd}-V_{GSm}+V_{Td}
+\end{equation}
+\\
+\begin{equation}
+V_{CM}^{min}=V_{OVg}+V_{GS1}
+\end{equation}
+
+\section{Input equivalent noise}
+Voltage noise: 
+\begin{equation}
+S_v^{in}=\frac{8kT\gamma}{g_{m1}}(1+\frac{g_{mM}}{g_{m1}})=\frac{8kT\gamma}{g_{m1}}(1+\frac{V_{ov,in}}{V_{ov,m}})
+\end{equation}
+Current noise:
+\begin{equation}
+S_i^{in}=kT\gamma(4g_{m,in}+2g_{m,M}+g_{m,G})(\frac{\omega}{\omega_T})^2
+\end{equation}
+With $\omega_T=\frac{1}{C_{gs}1/g_m}$ cut off radial frequency. This noise has a quadratic dependence with frequency.\\
+The voltage noise is dominant over the current one until the crossover frequency
+\begin{equation}
+f\simeq \frac{f_t}{g_mR_s}
+\end{equation}
+with $R_s$ input resistance of the circuit. In practice we will current noise is considered only in RF applications.
+
+

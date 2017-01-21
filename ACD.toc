@@ -1,0 +1,48 @@
+\contentsline {chapter}{\numberline {1}MOS Overview}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Current with modulation effect}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Weak inversion regime}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Inversion Coefficient IC}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Transconductance}{4}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Cut-off frequency}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Saturation conditions}{5}{section.1.4}
+\contentsline {section}{\numberline {1.5}Input and output resistance in MOS circuits}{5}{section.1.5}
+\contentsline {section}{\numberline {1.6}Pelgrom costants}{5}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}For resistors}{5}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}For transistors}{5}{subsection.1.6.2}
+\contentsline {chapter}{\numberline {2}One stage OTA}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Differential gain}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Common mode gain}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Deterministic contributions}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Statistical contributions}{7}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}CMRR}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Deterministic CMRR}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Statistical CMRR}{7}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Input voltage offset}{7}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Input mismatch}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Mirror mismatch}{8}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Total offset}{8}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Dynamics}{8}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Output voltage swing}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}CM voltage dynamic}{8}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Input equivalent noise}{8}{section.2.6}
+\contentsline {chapter}{\numberline {3}Two stage OTA}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Differential gain}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Compensation capacitance}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Frequency compensation}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Nulling resistor}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Voltage buffer}{11}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Ahuja compensation}{12}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Simple cascode}{13}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Cascoded mirror}{14}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Slew Rate SR}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Internal SR}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Power Bandwith}{14}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}External SR}{14}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}High gain one stage OTA}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Telescopic cascode}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Gain}{15}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Dynamics}{15}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Folded cascode}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Gain}{16}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Dynamics}{17}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}Output buffers}{18}{chapter.5}

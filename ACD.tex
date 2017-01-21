@@ -1,0 +1,41 @@
+	\documentclass[10pt,a4paper]{report}
+	\usepackage{graphicx}
+	\usepackage[utf8]{inputenc}
+	\usepackage{amssymb,amsmath}
+	\usepackage{geometry}
+	\usepackage[bookmarks=true]{hyperref}
+	\usepackage{bookmark}
+    \usepackage{wrapfig}
+	\geometry{article}
+	\usepackage[ampersand]{easylist}	
+
+\hypersetup{
+	pdftitle={Analog Circuit Design},%
+	pdfauthor={Matteo Baldo},%
+	pdfsubject={Analog Circuit Design},%
+	pdfkeywords={},%
+	colorlinks=true,%
+	linkcolor=blue,%
+	linktocpage=true,%
+	pageanchor=true
+}
+
+
+\begin{document}
+
+
+\input{Chapter0}        % Intro page and index
+%------------------------------------------------------------------------%
+\input{Chapter1}        % MOS overview
+%------------------------------------------------------------------------%
+\input{Chapter2}        % Single stage OTA
+%------------------------------------------------------------------------%
+\input{Chapter3}        % Two stage OTA
+%------------------------------------------------------------------------%
+\input{Chapter4}        % Folded cascode
+%------------------------------------------------------------------------%
+\input{Chapter5}        % Output buffers
+%------------------------------------------------------------------------%
+
+
+\end{document}
