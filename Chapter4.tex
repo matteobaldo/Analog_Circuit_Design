@@ -50,9 +50,9 @@ increases, but reducing the common-mode swing.\\
 V_B^{max}=V_{dd}-V_{gs7}-V_{ov6}\ \ \ \ \ V_B^{min}=V_{ovG}+V_{ov2}+V_{gs3}
 \end{equation}
 
-
+%------------------------------------------------------------------------%
 \section{Folded cascode}
-
+%------------------------------------------------------------------------%
 \centering
 \includegraphics[width=0.6\textwidth]{foldedcascode.png}\\
 \raggedright
@@ -60,6 +60,7 @@ V_B^{max}=V_{dd}-V_{gs7}-V_{ov6}\ \ \ \ \ V_B^{min}=V_{ovG}+V_{ov2}+V_{gs3}
 \begin{wrapfigure}{i}{0pt}
 \includegraphics[width=0.5\textwidth]{foldedcascoderes.png}
 \end{wrapfigure}
+
 \subsection{Gain}
 Using Norton theorem
 \begin{equation}
@@ -82,7 +83,8 @@ and a differential gain of
 G_d=g_{m1}g_{m4}\cdot r_{up}//r_{down}\simeq \frac{(g_mr_0)^2}{3}
 \end{equation}
 
-\subsection{Dynamics}
+\subsection{n-mos dynamics}
+
 {\bf Output voltage swing}\\
 Upper voltage limited by the saturation of M4
 \begin{equation}
@@ -107,11 +109,35 @@ The upper limit for $V_B$ is setted by the saturation of the 2 generators
 \begin{equation}
 V_{B}^{max}=V^+-V_{ovG}-|V_{gs4}|
 \end{equation}
+
 To further increase the voltage dynamic is possible to use this topology instead of the mirror-load.\\
 
 \centering
 \includegraphics[width=0.35\textwidth]{mirrorload.png}\\
 \raggedright
+
+\subsection{p-mos dynamics}
+
+
+\centering
+\includegraphics[width=0.5\textwidth]{pfcas.png}\\
+\raggedright
+
+
+TE 6 sept 2013\\
+
+\subsection{Noise}
+Cascode doesn't ifluence noise so we get
+\begin{equation}
+E_{wn}=\frac{8kT\gamma}{g_m^{in}}\left(1+\frac{g_m^{mirror\ high}}{g_m^{in}}+\frac{g_m^{g,current}}{g_m^{in}}   \right)
+\end{equation}
+
+
+
+
+
+
+
 
 {\it Remember to prevent the degradetion of the amplifier time response $I_G$ must be $>2I_1$}
 

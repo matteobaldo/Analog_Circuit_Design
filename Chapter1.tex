@@ -12,21 +12,20 @@ I_{DS}=\frac{1}{2}\mu C'_{ox}\frac{W}{L}(V_{GS}-V_t)^2 (1+\frac{V_D-V_S}{V_A})
 \includegraphics[width=0.55\textwidth]{Schermata.png}\\
 \raggedright
 
-\subsection{Inversion Coefficient IC}
+Inversion coefficient
 \begin{equation}
 IC=\frac{I}{2n\mu C'_{ox}V_{th}^2 W/L}
 \end{equation}
 With n=1.5 subthreshold coefficient.\\
 
-\subsection{Transconductance}
+Transconductance
 \begin{equation}
 g_m=\frac{I}{nV_{th}}\frac{2}{1+\sqrt{1+4IC}}
 \end{equation}
 
-\section{Cut-off frequency}
-\begin{equation}
-f_t=\frac{g_m}{2\pi(C_{gs}+C_{gd})}
-\end{equation}
+$V_{ov}$ can't be defined.\\
+
+
 
 \section{Saturation conditions}
 
@@ -43,7 +42,26 @@ f_t=\frac{g_m}{2\pi(C_{gs}+C_{gd})}
 \includegraphics[width=0.2\textwidth]{sres.png}\\
 \raggedright
 
+\section{Noise}
+
+Reistor voltage noise
+\begin{equation}
+S_V(f)=4kTR
+\end{equation}
+
+Resistor current noise
+\begin{equation}
+S_I(f)=\frac{4kT}{R}
+\end{equation}
+
+Transistor current noise
+\begin{equation}
+S_I(f)=4kT \frac{2}{3} g_m
+\end{equation}
+
+
 \section{Pelgrom costants}
+
 \subsection{For resistors}
 \begin{equation}
 \frac{\Delta R}{R}=\frac{K_{\Delta R / R}}{\sqrt{WL}}
