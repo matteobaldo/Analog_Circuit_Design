@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  12 FEB 2017 00:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  13 FEB 2017 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,32 +657,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (./Chapter1.tex [3]
 Chapter 1.
-<Schermata.png, id=142, 859.21pt x 210.7875pt>
+<Schermata.png, id=146, 859.21pt x 210.7875pt>
 File: Schermata.png Graphic file (type png)
  <use Schermata.png>
 Package pdftex.def Info: Schermata.png used on input line 12.
 (pdftex.def)             Requested size: 230.04079pt x 56.43414pt.
 
-<nmossat.png, id=143, 1109.14375pt x 309.155pt>
+<nmossat.png, id=147, 1109.14375pt x 309.155pt>
 File: nmossat.png Graphic file (type png)
  <use nmossat.png>
 Package pdftex.def Info: nmossat.png used on input line 33.
 (pdftex.def)             Requested size: 292.77629pt x 81.6049pt.
 
-<pmossat.png, id=144, 1101.11375pt x 288.07625pt>
+<pmossat.png, id=148, 1101.11375pt x 288.07625pt>
 File: pmossat.png Graphic file (type png)
  <use pmossat.png>
 Package pdftex.def Info: pmossat.png used on input line 34.
 (pdftex.def)             Requested size: 292.77629pt x 76.59479pt.
  [4
 
- <./Schermata.png> <./nmossat.png>] <dres.png, id=156, 363.3575pt x 449.68pt>
+ <./Schermata.png> <./nmossat.png>] <dres.png, id=160, 363.3575pt x 449.68pt>
 File: dres.png Graphic file (type png)
 
 <use dres.png>
 Package pdftex.def Info: dres.png used on input line 41.
 (pdftex.def)             Requested size: 104.56342pt x 129.40207pt.
- <sres.png, id=157, 295.1025pt x 491.8375pt>
+ <sres.png, id=161, 295.1025pt x 491.8375pt>
 File: sres.png Graphic file (type png)
  <use sres.png>
 Package pdftex.def Info: sres.png used on input line 42.
@@ -690,7 +690,7 @@ Package pdftex.def Info: sres.png used on input line 42.
 
 [5 <./pmossat.png> <./dres.png> <./sres.png>]) (./Chapter2.tex [6]
 Chapter 2.
-<OTA1.png, id=174, 622.325pt x 447.6725pt>
+<OTA1.png, id=179, 622.325pt x 447.6725pt>
 File: OTA1.png Graphic file (type png)
  <use OTA1.png>
 Package pdftex.def Info: OTA1.png used on input line 4.
@@ -700,7 +700,7 @@ File: OTA1.png Graphic file (type png)
 Package pdftex.def Info: OTA1.png used on input line 12.
 (pdftex.def)             Requested size: 104.56342pt x 75.21529pt.
 
-<OTA2.png, id=175, 573.14125pt x 494.84875pt>
+<OTA2.png, id=180, 573.14125pt x 494.84875pt>
 File: OTA2.png Graphic file (type png)
  <use OTA2.png>
 Package pdftex.def Info: OTA2.png used on input line 28.
@@ -710,57 +710,57 @@ Package pdftex.def Info: OTA2.png used on input line 28.
  <./OTA1.png>]
 [8 <./OTA2.png>] [9]) (./Chapter3.tex [10]
 Chapter 3.
-<twostageota.png, id=220, 437.635pt x 283.0575pt>
+<twostageota.png, id=224, 437.635pt x 283.0575pt>
 File: twostageota.png Graphic file (type png)
  <use twostageota.png>
 Package pdftex.def Info: twostageota.png used on input line 4.
 (pdftex.def)             Requested size: 250.95476pt x 162.31624pt.
 
-<compcap.png, id=221, 1045.9075pt x 318.18875pt>
+<compcap.png, id=225, 1045.9075pt x 318.18875pt>
 File: compcap.png Graphic file (type png)
  <use compcap.png>
 Package pdftex.def Info: compcap.png used on input line 17.
 (pdftex.def)             Requested size: 334.60422pt x 101.79333pt.
  [11
 
- <./twostageota.png> <./compcap.png>] <R_n.png, id=228, 486.81876pt x 259.97125
+ <./twostageota.png> <./compcap.png>] <R_n.png, id=232, 486.81876pt x 259.97125
 pt>
 File: R_n.png Graphic file (type png)
 
 <use R_n.png>
 Package pdftex.def Info: R_n.png used on input line 65.
 (pdftex.def)             Requested size: 250.95476pt x 134.01561pt.
- [12 <./R_n.png>] <R_nPSRR.png, id=243, 459.7175pt x 305.14pt>
+ [12 <./R_n.png>] <R_nPSRR.png, id=247, 459.7175pt x 305.14pt>
 File: R_nPSRR.png Graphic file (type png)
 
 <use R_nPSRR.png>
 Package pdftex.def Info: R_nPSRR.png used on input line 100.
 (pdftex.def)             Requested size: 125.47737pt x 83.28285pt.
- <compVbuff.png, id=244, 489.83pt x 315.1775pt>
+ <compVbuff.png, id=248, 489.83pt x 315.1775pt>
 File: compVbuff.png Graphic file (type png)
 
 <use compVbuff.png>
 Package pdftex.def Info: compVbuff.png used on input line 107.
 (pdftex.def)             Requested size: 250.95476pt x 161.4742pt.
  [13 <./R_nPSRR.png> <./compVbuff.png>]
-<compAhuja.png, id=254, 525.965pt x 268.00125pt>
+<compAhuja.png, id=258, 525.965pt x 268.00125pt>
 File: compAhuja.png Graphic file (type png)
  <use compAhuja.png>
 Package pdftex.def Info: compAhuja.png used on input line 135.
 (pdftex.def)             Requested size: 250.95476pt x 127.87442pt.
 
-<Qfactor.png, id=255, 496.85625pt x 315.1775pt>
+<Qfactor.png, id=259, 496.85625pt x 315.1775pt>
 File: Qfactor.png Graphic file (type png)
  <use Qfactor.png>
 Package pdftex.def Info: Qfactor.png used on input line 163.
 (pdftex.def)             Requested size: 209.12683pt x 132.65738pt.
- [14 <./compAhuja.png>] <cascodezeros.png, id=270, 430.60875pt x 313.17pt>
+ [14 <./compAhuja.png>] <cascodezeros.png, id=275, 430.60875pt x 313.17pt>
 File: cascodezeros.png Graphic file (type png)
 
 <use cascodezeros.png>
 Package pdftex.def Info: cascodezeros.png used on input line 185.
 (pdftex.def)             Requested size: 146.39133pt x 106.46683pt.
- <cascodedmirror.png, id=271, 437.635pt x 339.2675pt>
+ <cascodedmirror.png, id=276, 437.635pt x 339.2675pt>
 [15 <./Qfactor.png> <./cascodezeros.png>]
 File: cascodedmirror.png Graphic file (type png)
  <use cascodedmirror.png>
@@ -769,7 +769,7 @@ Package pdftex.def Info: cascodedmirror.png used on input line 202.
 )
 (./Chapter4.tex [16 <./cascodedmirror.png>]
 Chapter 4.
-<telescopiccascode.png, id=289, 349.305pt x 414.54875pt>
+<telescopiccascode.png, id=293, 349.305pt x 414.54875pt>
 File: telescopiccascode.png Graphic file (type png)
 
 <use telescopiccascode.png>
@@ -787,13 +787,13 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 8.
 [17
 
  <./telescopiccascode.png>]
-<foldedcascode.png, id=302, 440.64626pt x 339.2675pt>
+<foldedcascode.png, id=306, 440.64626pt x 339.2675pt>
 File: foldedcascode.png Graphic file (type png)
  <use foldedcascode.png>
 Package pdftex.def Info: foldedcascode.png used on input line 57.
 (pdftex.def)             Requested size: 250.95476pt x 193.21881pt.
 
-<foldedcascoderes.png, id=303, 496.85625pt x 347.2975pt>
+<foldedcascoderes.png, id=307, 496.85625pt x 347.2975pt>
 File: foldedcascoderes.png Graphic file (type png)
 
 <use foldedcascoderes.png>
@@ -814,20 +814,20 @@ Overfull \hbox (84.8356pt too wide) detected at line 72
  []
 
 [18 <./foldedcascode.png> <./foldedcascoderes.png>]
-<mirrorload.png, id=315, 352.31625pt x 309.155pt>
+<mirrorload.png, id=319, 352.31625pt x 309.155pt>
 File: mirrorload.png Graphic file (type png)
  <use mirrorload.png>
 Package pdftex.def Info: mirrorload.png used on input line 116.
 (pdftex.def)             Requested size: 146.39133pt x 128.4573pt.
 
-<pfcas.png, id=316, 1105.12875pt x 543.02875pt>
+<pfcas.png, id=320, 1105.12875pt x 543.02875pt>
 File: pfcas.png Graphic file (type png)
  <use pfcas.png>
 Package pdftex.def Info: pfcas.png used on input line 123.
 (pdftex.def)             Requested size: 209.12683pt x 102.75394pt.
  [19 <./mirrorload.png> <./pfcas.png>]) (./Chapter5.tex [20]
 Chapter 5.
-<mask.png, id=332, 453.695pt x 246.9225pt>
+<mask.png, id=335, 453.695pt x 246.9225pt>
 File: mask.png Graphic file (type png)
  <use mask.png>
 Package pdftex.def Info: mask.png used on input line 10.
@@ -835,37 +835,37 @@ Package pdftex.def Info: mask.png used on input line 10.
  [21
 
  <./mask.png>]
-<Gaussbutt.png, id=342, 437.635pt x 350.30875pt>
+<Gaussbutt.png, id=345, 437.635pt x 350.30875pt>
 File: Gaussbutt.png Graphic file (type png)
  <use Gaussbutt.png>
 Package pdftex.def Info: Gaussbutt.png used on input line 59.
 (pdftex.def)             Requested size: 146.39133pt x 117.1791pt.
 
-<butt.png, id=343, 872.25874pt x 354.32375pt>
+<butt.png, id=346, 872.25874pt x 354.32375pt>
 File: butt.png Graphic file (type png)
  <use butt.png>
 Package pdftex.def Info: butt.png used on input line 65.
 (pdftex.def)             Requested size: 209.12683pt x 84.94753pt.
 
-<bessel.png, id=344, 464.73625pt x 401.5pt>
+<bessel.png, id=347, 464.73625pt x 401.5pt>
 File: bessel.png Graphic file (type png)
  <use bessel.png>
 Package pdftex.def Info: bessel.png used on input line 83.
 (pdftex.def)             Requested size: 146.39133pt x 126.46704pt.
- [22 <./Gaussbutt.png> <./butt.png>] <gamma.png, id=353, 256.96pt x 109.40875pt
+ [22 <./Gaussbutt.png> <./butt.png>] <gamma.png, id=356, 256.96pt x 109.40875pt
 >
 File: gamma.png Graphic file (type png)
  <use gamma.png>
 Package pdftex.def Info: gamma.png used on input line 104.
 (pdftex.def)             Requested size: 62.73549pt x 26.71104pt.
 
-<s.png, id=354, 671.50874pt x 100.375pt>
+<s.png, id=357, 671.50874pt x 100.375pt>
 File: s.png Graphic file (type png)
  <use s.png>
 Package pdftex.def Info: s.png used on input line 109.
 (pdftex.def)             Requested size: 188.21288pt x 28.13237pt.
 
-<cheby.png, id=355, 821.0675pt x 338.26375pt>
+<cheby.png, id=358, 821.0675pt x 338.26375pt>
 File: cheby.png Graphic file (type png)
  <use cheby.png>
 Package pdftex.def Info: cheby.png used on input line 126.
@@ -879,20 +879,81 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 139.
 
-<skg.png, id=356, 386.44376pt x 212.795pt>
+<skg.png, id=359, 386.44376pt x 212.795pt>
 File: skg.png Graphic file (type png)
  <use skg.png>
 Package pdftex.def Info: skg.png used on input line 141.
 (pdftex.def)             Requested size: 146.39133pt x 80.60966pt.
  [23 <./bessel.png> <./gamma.png> <./s.png> <./cheby.png>]
-<skb.png, id=365, 420.57124pt x 207.77625pt>
+<skb.png, id=368, 420.57124pt x 207.77625pt>
 File: skb.png Graphic file (type png)
  <use skb.png>
 Package pdftex.def Info: skb.png used on input line 166.
 (pdftex.def)             Requested size: 146.39133pt x 72.32329pt.
+
+<ldd1.png, id=369, 393.47pt x 196.735pt> [24 <./skg.png> <./skb.png>]
+File: ldd1.png Graphic file (type png)
+
+<use ldd1.png>
+Package pdftex.def Info: ldd1.png used on input line 186.
+(pdftex.def)             Requested size: 146.39133pt x 73.19305pt.
+ <ldd2.png, id=383, 447.6725pt x 147.55125pt>
+File: ldd2.png Graphic file (type png)
+ <use ldd2.png>
+Package pdftex.def Info: ldd2.png used on input line 192.
+(pdftex.def)             Requested size: 209.12683pt x 68.92805pt.
+
+<ldd3.png, id=384, 408.52625pt x 172.645pt>
+File: ldd3.png Graphic file (type png)
+ <use ldd3.png>
+Package pdftex.def Info: ldd3.png used on input line 198.
+(pdftex.def)             Requested size: 209.12683pt x 88.3797pt.
+
+<ldd4.png, id=385, 442.65375pt x 210.7875pt>
+File: ldd4.png Graphic file (type png)
+ <use ldd4.png>
+Package pdftex.def Info: ldd4.png used on input line 204.
+(pdftex.def)             Requested size: 209.12683pt x 99.58475pt.
+
+<ldd5.png, id=386, 436.63126pt x 172.645pt>
+File: ldd5.png Graphic file (type png)
+ <use ldd5.png>
+Package pdftex.def Info: ldd5.png used on input line 211.
+(pdftex.def)             Requested size: 209.12683pt x 82.68951pt.
+ [25 <./ldd1.png> <./ldd2.png> <./ldd3.png> <./ldd4.png>]
+<ldd6.png, id=391, 539.01375pt x 226.8475pt>
+File: ldd6.png Graphic file (type png)
+ <use ldd6.png>
+Package pdftex.def Info: ldd6.png used on input line 221.
+(pdftex.def)             Requested size: 209.12683pt x 88.01326pt.
+
+<ld.png, id=392, 442.65375pt x 271.0125pt>
+File: ld.png Graphic file (type png)
+ <use ld.png>
+Package pdftex.def Info: ld.png used on input line 237.
+(pdftex.def)             Requested size: 334.60422pt x 204.87163pt.
+
+<ldb.png, id=393, 1215.54124pt x 420.57124pt>
+File: ldb.png Graphic file (type png)
+ <use ldb.png>
+Package pdftex.def Info: ldb.png used on input line 242.
+(pdftex.def)             Requested size: 376.42575pt x 130.24097pt.
+ [26 <./ldd5.png> <./ldd6.png> <./ld.png>] <ldc.png, id=400, 1198.4775pt x 673.
+51625pt>
+File: ldc.png Graphic file (type png)
+
+<use ldc.png>
+Package pdftex.def Info: ldc.png used on input line 247.
+(pdftex.def)             Requested size: 376.42575pt x 211.54211pt.
+ <ldb1.png, id=401, 1195.46625pt x 448.67625pt>
+File: ldb1.png Graphic file (type png)
+ <use ldb1.png>
+Package pdftex.def Info: ldb1.png used on input line 251.
+(pdftex.def)             Requested size: 376.42575pt x 141.27899pt.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
- [24 <./skg.png> <./skb.png>]
+
+[27 <./ldb.png> <./ldc.png> <./ldb1.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (./ACD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
@@ -904,13 +965,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 7760 strings out of 495028
- 108291 string characters out of 6181497
+ 7817 strings out of 495028
+ 108929 string characters out of 6181497
  200488 words of memory out of 5000000
- 10636 multiletter control sequences out of 15000+600000
+ 10677 multiletter control sequences out of 15000+600000
  13724 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,6n,30p,283b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,30p,317b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -924,10 +985,10 @@ onts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ACD.pdf (25 pages, 1524135 bytes).
+Output written on ACD.pdf (28 pages, 1938347 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 567 compressed objects within 6 object streams
- 192 named destinations out of 1000 (max. 500000)
- 623 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 585 compressed objects within 6 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 681 words of extra memory for PDF output out of 10000 (max. 10000000)
 

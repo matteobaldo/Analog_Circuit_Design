@@ -168,11 +168,86 @@ Highes the Q bigger the variation for a given percentage bigger attenuation.\\
 
 With all R equal and K=1 the capacitor has to be different to add a degree of freedom to the system so
 \begin{equation}
-\omega_0=\frac{1}{\sqrt{n}RC}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Q=\frac{\sqrt{Q}}{2}
+\omega_0=\frac{1}{\sqrt{n}RC}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Q=\frac{\sqrt{n}}{2}
 \end{equation}
 
 \section{Non idealities}
 When we get a non ideal op-amp with finite GBWP and DC gain and olso others poles or positive zeros this imperfections leads us to a change of Q like in the relations 
 \begin{equation}
-\frac{\Delta Q}{Q}\simeq 2Q\left(\frac{f_0}{GBWP}+\frac{f_0}{f_z}+\frac{f_z}{f_p}-\frac{1}{A_0}\right)
+\frac{\Delta Q}{Q}\simeq 2Q\left(\frac{f_0}{GBWP}+\frac{f_0}{f_z}+\frac{f_0}{f_p}-\frac{1}{A_0}\right)
 \end{equation}
+
+%------------------------------------------------------------------------%
+\section{Ladder}
+
+From ladder networ first identify all variables V and I in the circuit 
+
+\centering
+\includegraphics[width=0.35\textwidth]{ldd1.png}\\
+\raggedright
+
+Than make a flowgraph with all the integrations (with capacitor frmo current to voltage with inductors vice versa)
+
+\centering
+\includegraphics[width=0.5\textwidth]{ldd2.png}\\
+\raggedright
+
+Connect the nodes in order to have arrows directed in the amplifier ingresses and form the output of the amplifier to other variables
+
+\centering
+\includegraphics[width=0.5\textwidth]{ldd3.png}\\
+\raggedright
+
+Multiply all the current nodes by a factor $R^*$, all the branches from current to voltages by $1/R^*$ and all the branches form voltage to current by $R^*$. In this way we have only voltage signals like in figure below
+
+\centering
+\includegraphics[width=0.5\textwidth]{ldd4.png}\\
+\raggedright
+
+In order to use virtual ground as current summing node we multiply by $1/R^*$ all the input nodes of the amplifiers in order to have current signals and for coherence we have to multiply by $R^*$ all opamps function.\\
+Than since we will use inverting integrators we have to change sign at all the transfer functions and at all the inputs of the amplifiers
+
+\centering
+\includegraphics[width=0.5\textwidth]{ldd5.png}\\
+\raggedright
+
+Form this last scheme we get the filter implementation using integrators where 
+\begin{equation}
+C_1=L_1/R^{*2} \ \ \ \ \ \ \ \ \ \ \ \ \ \ C_2=L_2/R^{*2}  \ \ \ \ \ \ \ \ \ \ \ \ \ \ R_y=R^* \ \ \ \ \ \ \ \ \ \ \ \ R_x=\frac{R^{*2}}{R_2}-R^*
+\end{equation}
+
+
+\centering
+\includegraphics[width=0.5\textwidth]{ldd6.png}\\
+\raggedright
+
+
+The denormalization procedure changes the component values according to the following rules:
+
+\begin{equation}
+R_1=R_1^{(0)}M \ \ \ \ \ \ \ \ L_1=L_1^{(0)}M/N \ \ \ \ \ \ \ \ L_2=L_2^{(0)}M/N \ \ \ \ \ \ \ \ C=C^{(0)}/(MN) \ \ \ \ \ \ \ \ R_2=R_2^{(0)}M
+\end{equation}
+
+Where $N=2\pi f_0$ is the factor needed to get from 1rad/s to the desired $f_0$, the factor M is to rise the resistor values and $R^*$ is an additional degree of freedom.\\
+Here we place $R=\alpha R^*$ and the two in-out resistor equal to R. Beacuse all resistor have to be positive we have a constrain on $R_x$ and from that a constrain on $\alpha$. Than we choose $\alpha $ and so we can choose olso the value of $R^*$ and from that M.\\
+\vspace{5mm}
+Transformation from LP to HP or BP in ladder implementation are 
+
+\centering
+\includegraphics[width=0.8\textwidth]{ld.png}\\
+\raggedright
+
+
+\centering
+\includegraphics[width=0.9\textwidth]{ldb.png}\\
+\raggedright
+
+
+\centering
+\includegraphics[width=0.9\textwidth]{ldc.png}\\
+\raggedright
+
+\centering
+\includegraphics[width=0.9\textwidth]{ldb1.png}\\
+\raggedright
+
