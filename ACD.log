@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  26 FEB 2017 15:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  26 FEB 2017 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -846,114 +846,113 @@ File: butt.png Graphic file (type png)
  <use butt.png>
 Package pdftex.def Info: butt.png used on input line 76.
 (pdftex.def)             Requested size: 209.12683pt x 84.94753pt.
-
-<bessel.png, id=348, 464.73625pt x 401.5pt>
+ [22 <./Gaussbutt.png> <./butt.png>] <bessel.png, id=357, 464.73625pt x 401.5pt
+>
 File: bessel.png Graphic file (type png)
  <use bessel.png>
-Package pdftex.def Info: bessel.png used on input line 94.
+Package pdftex.def Info: bessel.png used on input line 97.
 (pdftex.def)             Requested size: 146.39133pt x 126.46704pt.
- [22 <./Gaussbutt.png> <./butt.png>] <gamma.png, id=358, 256.96pt x 109.40875pt
->
+
+<gamma.png, id=358, 256.96pt x 109.40875pt>
 File: gamma.png Graphic file (type png)
  <use gamma.png>
-Package pdftex.def Info: gamma.png used on input line 115.
+Package pdftex.def Info: gamma.png used on input line 118.
 (pdftex.def)             Requested size: 62.73549pt x 26.71104pt.
 
 <s.png, id=359, 671.50874pt x 100.375pt>
 File: s.png Graphic file (type png)
  <use s.png>
-Package pdftex.def Info: s.png used on input line 120.
+Package pdftex.def Info: s.png used on input line 123.
 (pdftex.def)             Requested size: 188.21288pt x 28.13237pt.
 
 <cheby.png, id=360, 821.0675pt x 338.26375pt>
 File: cheby.png Graphic file (type png)
  <use cheby.png>
-Package pdftex.def Info: cheby.png used on input line 137.
+Package pdftex.def Info: cheby.png used on input line 140.
 (pdftex.def)             Requested size: 209.12683pt x 86.15546pt.
+ [23 <./bessel.png> <./gamma.png> <./s.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 150.
+(hyperref)                removing `math shift' on input line 153.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 150.
-
-<skg.png, id=361, 386.44376pt x 212.795pt>
+<skg.png, id=370, 386.44376pt x 212.795pt>
 File: skg.png Graphic file (type png)
  <use skg.png>
-Package pdftex.def Info: skg.png used on input line 152.
+Package pdftex.def Info: skg.png used on input line 155.
 (pdftex.def)             Requested size: 146.39133pt x 80.60966pt.
- [23 <./bessel.png> <./gamma.png> <./s.png> <./cheby.png>]
-<skb.png, id=370, 420.57124pt x 207.77625pt>
+
+<skb.png, id=371, 420.57124pt x 207.77625pt>
 File: skb.png Graphic file (type png)
  <use skb.png>
-Package pdftex.def Info: skb.png used on input line 177.
+Package pdftex.def Info: skb.png used on input line 180.
 (pdftex.def)             Requested size: 146.39133pt x 72.32329pt.
-
-<ldd1.png, id=371, 393.47pt x 196.735pt> [24 <./skg.png> <./skb.png>]
+ [24 <./cheby.png> <./skg.png> <./skb.png>] <ldd1.png, id=383, 393.47pt x 196.7
+35pt>
 File: ldd1.png Graphic file (type png)
-
-<use ldd1.png>
-Package pdftex.def Info: ldd1.png used on input line 197.
+ <use ldd1.png>
+Package pdftex.def Info: ldd1.png used on input line 200.
 (pdftex.def)             Requested size: 146.39133pt x 73.19305pt.
- <ldd2.png, id=385, 447.6725pt x 147.55125pt>
+
+<ldd2.png, id=384, 447.6725pt x 147.55125pt>
 File: ldd2.png Graphic file (type png)
  <use ldd2.png>
-Package pdftex.def Info: ldd2.png used on input line 203.
+Package pdftex.def Info: ldd2.png used on input line 206.
 (pdftex.def)             Requested size: 209.12683pt x 68.92805pt.
 
-<ldd3.png, id=386, 408.52625pt x 172.645pt>
+<ldd3.png, id=385, 408.52625pt x 172.645pt>
 File: ldd3.png Graphic file (type png)
  <use ldd3.png>
-Package pdftex.def Info: ldd3.png used on input line 209.
+Package pdftex.def Info: ldd3.png used on input line 212.
 (pdftex.def)             Requested size: 209.12683pt x 88.3797pt.
 
-<ldd4.png, id=387, 442.65375pt x 210.7875pt>
+<ldd4.png, id=386, 442.65375pt x 210.7875pt>
 File: ldd4.png Graphic file (type png)
  <use ldd4.png>
-Package pdftex.def Info: ldd4.png used on input line 215.
+Package pdftex.def Info: ldd4.png used on input line 218.
 (pdftex.def)             Requested size: 209.12683pt x 99.58475pt.
-
-<ldd5.png, id=388, 436.63126pt x 172.645pt>
+ [25 <./ldd1.png> <./ldd2.png> <./ldd3.png>] <ldd5.png, id=393, 436.63126pt x 1
+72.645pt>
 File: ldd5.png Graphic file (type png)
- <use ldd5.png>
-Package pdftex.def Info: ldd5.png used on input line 222.
+
+<use ldd5.png>
+Package pdftex.def Info: ldd5.png used on input line 225.
 (pdftex.def)             Requested size: 209.12683pt x 82.68951pt.
- [25 <./ldd1.png> <./ldd2.png> <./ldd3.png> <./ldd4.png>]
-<ldd6.png, id=393, 539.01375pt x 226.8475pt>
+ <ldd6.png, id=394, 539.01375pt x 226.8475pt>
 File: ldd6.png Graphic file (type png)
  <use ldd6.png>
-Package pdftex.def Info: ldd6.png used on input line 232.
+Package pdftex.def Info: ldd6.png used on input line 235.
 (pdftex.def)             Requested size: 209.12683pt x 88.01326pt.
 
-<ld.png, id=394, 442.65375pt x 271.0125pt>
+<ld.png, id=395, 442.65375pt x 271.0125pt>
 File: ld.png Graphic file (type png)
  <use ld.png>
-Package pdftex.def Info: ld.png used on input line 248.
+Package pdftex.def Info: ld.png used on input line 251.
 (pdftex.def)             Requested size: 334.60422pt x 204.87163pt.
-
-<ldb.png, id=395, 1215.54124pt x 420.57124pt>
+ [26 <./ldd4.png> <./ldd5.png> <./ldd6.png>] <ldb.png, id=402, 1215.54124pt x 4
+20.57124pt>
 File: ldb.png Graphic file (type png)
- <use ldb.png>
-Package pdftex.def Info: ldb.png used on input line 253.
-(pdftex.def)             Requested size: 376.42575pt x 130.24097pt.
- [26 <./ldd5.png> <./ldd6.png> <./ld.png>] <ldc.png, id=402, 1198.4775pt x 673.
-51625pt>
-File: ldc.png Graphic file (type png)
 
-<use ldc.png>
-Package pdftex.def Info: ldc.png used on input line 258.
+<use ldb.png>
+Package pdftex.def Info: ldb.png used on input line 256.
+(pdftex.def)             Requested size: 376.42575pt x 130.24097pt.
+ <ldc.png, id=403, 1198.4775pt x 673.51625pt>
+File: ldc.png Graphic file (type png)
+ <use ldc.png>
+Package pdftex.def Info: ldc.png used on input line 261.
 (pdftex.def)             Requested size: 376.42575pt x 211.54211pt.
- <ldb1.png, id=403, 1195.46625pt x 448.67625pt>
+
+<ldb1.png, id=404, 1195.46625pt x 448.67625pt>
 File: ldb1.png Graphic file (type png)
  <use ldb1.png>
-Package pdftex.def Info: ldb1.png used on input line 262.
+Package pdftex.def Info: ldb1.png used on input line 265.
 (pdftex.def)             Requested size: 376.42575pt x 141.27899pt.
-)
+ [27 <./ld.png> <./ldb.png> <./ldc.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
-
-[27 <./ldb.png> <./ldc.png> <./ldb1.png>]
+ [28 <./ldb1.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (./ACD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
@@ -965,8 +964,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 7819 strings out of 495028
- 108959 string characters out of 6181497
+ 7821 strings out of 495028
+ 108981 string characters out of 6181497
  200488 words of memory out of 5000000
  10677 multiletter control sequences out of 15000+600000
  13724 words of font info for 52 fonts, out of 8000000 for 9000
@@ -985,10 +984,10 @@ onts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ACD.pdf (28 pages, 1938310 bytes).
+Output written on ACD.pdf (29 pages, 1939557 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 588 compressed objects within 6 object streams
- 200 named destinations out of 1000 (max. 500000)
+ 683 PDF objects out of 1000 (max. 8388607)
+ 592 compressed objects within 6 object streams
+ 202 named destinations out of 1000 (max. 500000)
  681 words of extra memory for PDF output out of 10000 (max. 10000000)
 
