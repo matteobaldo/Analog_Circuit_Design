@@ -49,7 +49,7 @@
 \contentsline {subsection}{\numberline {4.2.4}Noise}{20}{subsection.4.2.4}
 \contentsline {chapter}{\numberline {5}Filters}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Parameters}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Butterworth Filters}{21}{section.5.2}
+\contentsline {section}{\numberline {5.2}Butterworth Filters}{22}{section.5.2}
 \contentsline {section}{\numberline {5.3}Bessel Filters}{22}{section.5.3}
 \contentsline {section}{\numberline {5.4}Chebyshev Type-I}{23}{section.5.4}
 \contentsline {section}{\numberline {5.5}Sallen-Key Cell}{24}{section.5.5}
