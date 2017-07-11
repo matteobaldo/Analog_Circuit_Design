@@ -1,9 +1,14 @@
 	\documentclass[10pt,a4paper]{report}
 	\usepackage{graphicx}
+    \usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
 	\usepackage[utf8]{inputenc}
 	\usepackage{amssymb,amsmath}
 	\usepackage{geometry}
-	\usepackage[bookmarks=true]{hyperref}
+
 	\usepackage{bookmark}
     \usepackage{wrapfig}
 	%\geometry{article}
@@ -25,6 +30,8 @@
 
 
 \input{Chapter0}        % Intro page and index
+%------------------------------------------------------------------------%
+\input{info}            % Reference to github page
 %------------------------------------------------------------------------%
 \input{Chapter1}        % MOS overview
 %------------------------------------------------------------------------%

@@ -60,7 +60,7 @@ To mach the stop-band attenuation spec. we have to respect
 
 So we get an interval of $\Omega_0$ and a formula for the filter order
 \begin{equation}
-\frac{\Omega_{BP}}{\varepsilon_{BP}^{1/n}} \ge \Omega_0 \le \frac{\Omega_{SB}}{\varepsilon_{SB}^{1/n}} \ \ \ \ \ \ \ \ \ \ \ \ \ \ n \ge \frac{\ln(k_{\varepsilon})}{\ln(k)}
+\frac{\Omega_{BP}}{\varepsilon_{BP}^{1/n}} \le \Omega_0 \le \frac{\Omega_{SB}}{\varepsilon_{SB}^{1/n}} \ \ \ \ \ \ \ \ \ \ \ \ \ \ n \ge \frac{\ln(k_{\varepsilon})}{\ln(k)}
 \end{equation}
 
 Poles in the Gauss plane are disposed as in figure
@@ -80,6 +80,8 @@ Contribution to a sigle couple of complex conjugate pair of poles to the attenua
 \begin{equation}
 A_{pair}=10 \log\left(\left(1-(\frac{\Omega}{\Omega_0})^2\right)^2+\frac{1}{Q_{pair}^2}(\frac{\Omega}{\Omega_0})^2\right)
 \end{equation}
+
+
 %------------------------------------------------------------------------%
 \section{Bessel Filters}
 %------------------------------------------------------------------------%
@@ -97,6 +99,8 @@ Table of poles for a n order Bessel
 \includegraphics[width=0.35\textwidth]{bessel.png}\\
 \raggedright
 
+
+
 %------------------------------------------------------------------------%
 \section{Chebyshev Type-I}
 %------------------------------------------------------------------------%
@@ -112,7 +116,7 @@ Order of the filter form the specs can be derived as
 n\ge \frac{arCosh(k_{\varepsilon}^{-1})}{arCosh(k^{-1})}
 \end{equation} 
 
-Poles derived from the following formulas to mach exactly the BP attenuation
+Poles derived from the following formulas to mach exactly the BP attenuation (calculator in radians)
 
 \centering
 \includegraphics[width=0.15\textwidth]{gamma.png}\\
@@ -125,7 +129,7 @@ Poles derived from the following formulas to mach exactly the BP attenuation
 
 where we remember that 
 \begin{equation}
-\omega=\sqrt{r^2+i^2} \ \ \ \ \ \ \ Q=\frac{|omega|}{|2r|}
+\omega=\sqrt{r^2+i^2} \ \ \ \ \ \ \ Q=\frac{|\omega|}{|2r|}
 \end{equation}
 
 Where k ranges form 1,2,...2n and only poles with negative real part have to be considered.\\
@@ -152,12 +156,21 @@ Poles in Gauss plane placed in an ellipse.\\
 
 \subsection{With K$>$1}
 \centering
-\includegraphics[width=0.35\textwidth]{skg.png}\\
+\includegraphics[width=0.5\textwidth]{skg.png}\\
 \raggedright
+
+General formulas for $\omega_0$ and Q are
+\begin{equation}
+\omega_0=\frac{1}{\sqrt{R_1R_2C_1C_2}}
+\end{equation}
+\begin{equation}
+Q=\frac{\sqrt{R_1R_2C_1C_2}}{R_1(1-K)C_1+(R_1+R_2)C_2}=\frac{\sqrt{\frac{R_2C_2}{R_1C_1}}}{(1-K)+(1+\frac{R_2}{R_1})\frac{C_2}{C_1}}
+\end{equation}
+
 
 With all R equal ,all capacitors equal C and K the gain of the amplifier 
 \begin{equation}
-\omega_0=\frac{1}{RC}\ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ Q=\frac{RC}{RC(k-1)+2RC}
+\omega_0=\frac{1}{RC}\ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ Q=\frac{1}{(3-k)}
 \end{equation}
 Form the Q equation we get the dependaces with k 
 \begin{equation}
@@ -188,7 +201,7 @@ With all R equal and K=1 the capacitor has to be different to add a degree of fr
 \section{Non idealities}
 When we get a non ideal op-amp with finite GBWP and DC gain and olso others poles or positive zeros this imperfections leads us to a change of Q like in the relations 
 \begin{equation}
-\frac{\Delta Q}{Q}\simeq 2Q\left(\frac{f_0}{GBWP}+\frac{f_0}{f_z}+\frac{f_0}{f_p}-\frac{1}{A_0}\right)
+\frac{\Delta Q}{Q}\simeq 2Q\left(\frac{f_0}{GBWP}+\frac{f_0}{f_z}+\frac{f_0}{f_p}-\frac{1}{A_0}\right) \le 10^{\epsilon_{db \ error}}-1
 \end{equation}
 
 %------------------------------------------------------------------------%
