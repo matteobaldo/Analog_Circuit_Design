@@ -198,10 +198,12 @@ With all R equal and K=1 the capacitor has to be different to add a degree of fr
 \omega_0=\frac{1}{\sqrt{n}RC}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Q=\frac{\sqrt{n}}{2}
 \end{equation}
 
+
+%------------------------------------------------------------------------%
 \section{Non idealities}
 When we get a non ideal op-amp with finite GBWP and DC gain and also others poles or positive zeros this imperfections leads us to a change of Q like in the relations 
 \begin{equation}
-\frac{\Delta Q}{Q}\simeq 2Q\left(\frac{f_0}{GBWP}+\frac{f_0}{f_z}+\frac{f_0}{f_p}-\frac{1}{A_0}\right) \le 10^{\epsilon_{db \ error}}-1
+\frac{\Delta Q}{Q}\simeq 2Q\left(\frac{f_0}{GBWP}+\frac{f_0}{f_z}+\frac{f_0}{f_p}-\frac{1}{A_0}\right) \le 10^{\frac{\epsilon_{db \ error}}{20}}-1= error \ in \ \%
 \end{equation}
 
 %------------------------------------------------------------------------%

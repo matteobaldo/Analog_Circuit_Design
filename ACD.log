@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  11 JUL 2017 10:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  3 SEP 2017 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,62 +887,62 @@ Package pdftex.def Info: skb.png used on input line 193.
  [25 <./cheby.png> <./skg.png>] <ldd1.png, id=391, 393.47pt x 196.735pt>
 File: ldd1.png Graphic file (type png)
  <use ldd1.png>
-Package pdftex.def Info: ldd1.png used on input line 213.
+Package pdftex.def Info: ldd1.png used on input line 215.
 (pdftex.def)             Requested size: 146.39133pt x 73.19305pt.
 
 <ldd2.png, id=392, 447.6725pt x 147.55125pt>
 File: ldd2.png Graphic file (type png)
  <use ldd2.png>
-Package pdftex.def Info: ldd2.png used on input line 219.
+Package pdftex.def Info: ldd2.png used on input line 221.
 (pdftex.def)             Requested size: 209.12683pt x 68.92805pt.
 
 <ldd3.png, id=393, 408.52625pt x 172.645pt>
 File: ldd3.png Graphic file (type png)
  <use ldd3.png>
-Package pdftex.def Info: ldd3.png used on input line 225.
+Package pdftex.def Info: ldd3.png used on input line 227.
 (pdftex.def)             Requested size: 209.12683pt x 88.3797pt.
 
 <ldd4.png, id=394, 442.65375pt x 210.7875pt> [26 <./skb.png> <./ldd1.png> <./ld
 d2.png> <./ldd3.png>]
 File: ldd4.png Graphic file (type png)
  <use ldd4.png>
-Package pdftex.def Info: ldd4.png used on input line 231.
+Package pdftex.def Info: ldd4.png used on input line 233.
 (pdftex.def)             Requested size: 209.12683pt x 99.58475pt.
 
 <ldd5.png, id=401, 436.63126pt x 172.645pt>
 File: ldd5.png Graphic file (type png)
  <use ldd5.png>
-Package pdftex.def Info: ldd5.png used on input line 238.
+Package pdftex.def Info: ldd5.png used on input line 240.
 (pdftex.def)             Requested size: 209.12683pt x 82.68951pt.
 
 <ldd6.png, id=402, 539.01375pt x 226.8475pt>
 File: ldd6.png Graphic file (type png)
  <use ldd6.png>
-Package pdftex.def Info: ldd6.png used on input line 248.
+Package pdftex.def Info: ldd6.png used on input line 250.
 (pdftex.def)             Requested size: 209.12683pt x 88.01326pt.
 
 <ld.png, id=403, 442.65375pt x 271.0125pt>
 File: ld.png Graphic file (type png)
  <use ld.png>
-Package pdftex.def Info: ld.png used on input line 264.
+Package pdftex.def Info: ld.png used on input line 266.
 (pdftex.def)             Requested size: 334.60422pt x 204.87163pt.
  [27 <./ldd4.png> <./ldd5.png> <./ldd6.png>] <ldb.png, id=410, 1215.54124pt x 4
 20.57124pt>
 File: ldb.png Graphic file (type png)
 
 <use ldb.png>
-Package pdftex.def Info: ldb.png used on input line 269.
+Package pdftex.def Info: ldb.png used on input line 271.
 (pdftex.def)             Requested size: 376.42575pt x 130.24097pt.
  <ldc.png, id=411, 1198.4775pt x 673.51625pt>
 File: ldc.png Graphic file (type png)
  <use ldc.png>
-Package pdftex.def Info: ldc.png used on input line 274.
+Package pdftex.def Info: ldc.png used on input line 276.
 (pdftex.def)             Requested size: 376.42575pt x 211.54211pt.
 
 <ldb1.png, id=412, 1195.46625pt x 448.67625pt>
 File: ldb1.png Graphic file (type png)
  <use ldb1.png>
-Package pdftex.def Info: ldb1.png used on input line 278.
+Package pdftex.def Info: ldb1.png used on input line 280.
 (pdftex.def)             Requested size: 376.42575pt x 141.27899pt.
  [28 <./ld.png> <./ldb.png> <./ldc.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
@@ -979,7 +979,7 @@ cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ACD.pdf (30 pages, 1966718 bytes).
+Output written on ACD.pdf (30 pages, 1966638 bytes).
 PDF statistics:
  696 PDF objects out of 1000 (max. 8388607)
  602 compressed objects within 7 object streams
